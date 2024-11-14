@@ -5,7 +5,7 @@ import autoNav from "./plugins/autoNav";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "学习博客",
-  outDir: "../dist",
+  outDir: "./dist",
   base: "/study-docs/",
   description: "Liu Lin's study docs",
   titleTemplate: "Liu Lin's study docs",
