@@ -2,22 +2,22 @@
 
 export default function autoSidebar() {
   return {
-    "/vitepress/": [
+    "/Vitepress/": [
       {
         text: "Vitepress",
-        items: [{ text: "入门", link: "/vitepress/index" }],
+        items: [{ text: "入门", link: "/Vitepress/index" }],
       },
     ],
-    "/react/": [
+    "/React/": [
       {
         text: "React",
-        items: [{ text: "入门", link: "/react/index" }],
+        items: [{ text: "入门", link: "/React/index" }],
       },
     ],
-    "/typescript/": [
+    "/Typescript/": [
       {
         text: "Typescript",
-        items: [{ text: "类型基础", link: "/typescript/index" }],
+        items: [{ text: "类型基础", link: "/Typescript/index" }],
       },
     ],
   };

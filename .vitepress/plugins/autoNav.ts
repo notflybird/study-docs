@@ -4,13 +4,13 @@ export default function autoNav() {
     { text: "Home", link: "/" },
     {
       text: "Vitepress",
-      link: "/vitepress/index",
+      link: "/Vitepress/index",
       activeMatch: "/Vitepress/",
     },
-    { text: "React", link: "/react/index", activeMatch: "/React/" },
+    { text: "React", link: "/React/index", activeMatch: "/React/" },
     {
       text: "Typescript",
-      link: "/typescript/index",
+      link: "/Typescript/index",
       activeMatch: "/Typescript/",
     },
   ];
