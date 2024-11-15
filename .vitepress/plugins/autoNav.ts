@@ -13,5 +13,10 @@ export default function autoNav() {
       link: "/Typescript/index",
       activeMatch: "/Typescript/",
     },
+    {
+      text: "简历",
+      link: "https://notflybird.github.io/",
+      ariaLabel: "简历",
+    },
   ];
 }
