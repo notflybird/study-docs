@@ -7,7 +7,7 @@ hero:
   text: "好记性不如烂笔头"
   tagline: 记录学习过程中的点点滴滴
   image:
-    src: /bg.png
+    src: /bgTwo.png
     alt: study
   actions:
     - theme: brand
