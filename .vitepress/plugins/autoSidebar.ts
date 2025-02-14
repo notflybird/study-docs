@@ -30,8 +30,26 @@ export default function autoSidebar() {
     ],
     "/React/": [
       {
-        text: "React",
-        items: [{ text: "入门", link: "/React/index" }],
+        text: "React Hooks",
+        items: [
+          {
+            text: "useState",
+            link: "/React/hooks/useState",
+          },
+          {
+            text: "useEffect",
+            link: "/React/hooks/useEffect",
+          },
+        ],
+      },
+      {
+        text: "React API",
+        items: [
+          {
+            text: "memo",
+            link: "/React/api/memo",
+          },
+        ],
       },
     ],
     "/Typescript/": [

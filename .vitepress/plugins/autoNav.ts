@@ -11,7 +11,11 @@ export default function autoNav() {
       text: "Vue",
       items: [{ text: "入门基础", link: "/Vue/guide/introduction" }],
     },
-    { text: "React", link: "/React/index", activeMatch: "/React/" },
+    {
+      text: "React",
+      link: "/React/hooks/useState",
+      activeMatch: "/React/",
+    },
     {
       text: "Typescript",
       link: "/Typescript/special/any",
