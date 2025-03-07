@@ -19,7 +19,9 @@ verify_local_clean() {
 
 push() {
   git add .
-  git commit -m "ci: release"
+  # 提示用户输入提交信息
+  read -p "请输入提交信息: " COMMIT_MESSAGE
+  git commit -m "$COMMIT_MESSAGE"
   git push origin $RELEASE_BRANCH
   echo "已提交到 origin/$RELEASE_BRANCH"
 }
