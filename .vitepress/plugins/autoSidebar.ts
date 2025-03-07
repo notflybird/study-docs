@@ -40,6 +40,18 @@ export default function autoSidebar() {
             text: "useEffect",
             link: "/React/hooks/useEffect",
           },
+          {
+            text: "useCallback",
+            link: "/React/hooks/useCallback",
+          },
+          {
+            text: "useContext",
+            link: "/React/hooks/useContext",
+          },
+          {
+            text: "useDeferredValue",
+            link: "/React/hooks/useDeferredValue",
+          },
         ],
       },
       {

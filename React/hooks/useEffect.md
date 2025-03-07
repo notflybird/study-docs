@@ -1,6 +1,6 @@
 # useEffect
 
-`useEffect`是一个 React Hook，是 React 提供的一个“逃生舱”，是 React 高效纯函数式通往副作用的“通道”；它允许你
+`useEffect`是一个 React Hook，是 React 提供的一个“逃生舱”，是 React 高效纯函数式通往副作用的“通道”；
 
 # 用法
 
