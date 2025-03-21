@@ -9,7 +9,10 @@ export default function autoNav() {
     },
     {
       text: "Vue",
-      items: [{ text: "入门基础", link: "/Vue/guide/introduction" }],
+      items: [
+        { text: "入门基础", link: "/Vue/guide/introduction" },
+        { text: "Eslint", link: "/Vue/eslint/basics" },
+      ],
     },
     {
       text: "React",

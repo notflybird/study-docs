@@ -27,6 +27,10 @@ export default function autoSidebar() {
           { text: "项目安装", link: "/Vue/guide/project-create" },
         ],
       },
+      {
+        text: "EsLint",
+        items: [{ text: "基础配置", link: "/Vue/eslint/basics" }],
+      },
     ],
     "/React/": [
       {
